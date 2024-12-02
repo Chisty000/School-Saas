@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Login from "./components/form/";
 
 export default function Home() {
   return (
-    <>
-    Hello World
-    </>
+    <div>
+      <Login/>
+    </div>
   );
 }
